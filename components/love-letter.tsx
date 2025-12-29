@@ -26,9 +26,9 @@ export function LoveLetter() {
             </div>
 
             <h3 className="text-6xl md:text-8xl font-black tracking-tighter uppercase leading-none">
-              A Private
+              Pesan
               <br />
-              Message
+              Pribadi
             </h3>
 
             <motion.button
@@ -38,7 +38,7 @@ export function LoveLetter() {
               className="group relative px-12 py-6 bg-primary text-white font-bold text-lg uppercase tracking-widest overflow-hidden transition-all hover:scale-105"
             >
               <span className="relative z-10 flex items-center gap-3">
-                Open Letter{" "}
+                Buka Pesan{" "}
                 <Send className={`w-5 h-5 transition-transform ${hovered ? "translate-x-2 -translate-y-2" : ""}`} />
               </span>
               <motion.div className="absolute inset-0 bg-white/20 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
