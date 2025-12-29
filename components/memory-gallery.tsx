@@ -18,7 +18,7 @@ export function MemoryGallery() {
         <div className="md:col-span-4 md:sticky top-24 self-start">
           <div className="flex items-center gap-2 mb-6">
             <Camera className="w-4 h-4 text-primary" />
-            <span className="text-xs font-bold uppercase tracking-widest">Archive 01</span>
+            <span className="text-xs font-bold uppercase tracking-widest">Archive</span>
           </div>
           <h2 className="text-5xl md:text-8xl font-black uppercase tracking-tighter mb-8 leading-none">
             Our

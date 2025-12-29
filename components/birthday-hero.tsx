@@ -20,7 +20,7 @@ export function BirthdayHero({ name, age }: { name: string; age: number }) {
     >
       {/* Editorial Vertical Columns */}
 <div className="flex-1 border-r border-foreground/5 relative min-h-[50vh] md:min-h-screen z-10">
-        <div className="absolute inset-0 p-8 flex flex-col justify-end">
+        <div className="absolute inset-0 p-8 flex flex-col justify-end mb-2">
           <motion.h2
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -59,13 +59,13 @@ export function BirthdayHero({ name, age }: { name: string; age: number }) {
 
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-4 mb-6">
           <p className="text-sm uppercase tracking-widest font-bold text-primary">Est. 2006</p>
           <h1 className="text-7xl md:text-[10vw] font-black uppercase leading-[0.85] tracking-tighter">
             {name.split(" ")[1]}
           </h1>
           <p className="max-w-xs text-sm text-muted-foreground leading-relaxed">
-            Merayakan dua dekade penuh cahaya, tawa, dan jiwa indah bernama Sylvia Monica Hari ini adalah harimu.          
+            Merayakan dua dekade penuh cahaya, tawa, dan jiwa indah bernama Sylvia Monica Hari ini adalah harimu, Sayang.     
             </p>
         </div>
       </div>
