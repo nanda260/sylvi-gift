@@ -140,7 +140,7 @@ export function InteractiveCake() {
                 className="absolute -bottom-16 md:-bottom-20 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
               >
                 <p className="text-center text-[10px] md:text-xs font-bold tracking-wider md:tracking-widest text-primary uppercase">
-                  {clicks === 0 ? "Blow the candles (Click!)" : `Wish intensity: ${clicks * 20}%`}
+                  {clicks === 0 ? "Tiup lilinnya, Sayang (Tekan!)" : `Wish intensity: ${clicks * 20}%`}
                 </p>
                 <div className="flex gap-1">
                   {[...Array(5)].map((_, i) => (

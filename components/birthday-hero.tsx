@@ -26,7 +26,7 @@ export function BirthdayHero({ name, age }: { name: string; age: number }) {
             animate={{ y: 0, opacity: 1 }}
             className="text-editorial text-4xl md:text-6xl text-primary"
           >
-            The Grace of
+            The Birthday of
           </motion.h2>
           <motion.h1
             initial={{ y: 40, opacity: 0 }}
